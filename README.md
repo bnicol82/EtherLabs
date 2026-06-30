@@ -23,4 +23,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Deploy
 
-Deploy on [Vercel](https://vercel.com/new) or any platform that supports Next.js.
+The site deploys automatically to **GitHub Pages** on every push to `main`.
+
+Live URL: [https://bnicol82.github.io/EtherLabs/](https://bnicol82.github.io/EtherLabs/)
+
+If this is the first deploy, enable GitHub Pages in the repository settings and set the source to **GitHub Actions**.
