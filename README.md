@@ -23,8 +23,15 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Deploy
 
-The site deploys automatically to **GitHub Pages** on every push to `main`.
+The site deploys automatically to the **`gh-pages`** branch on every push to `main` via GitHub Actions.
 
-Live URL: [https://bnicol82.github.io/EtherLabs/](https://bnicol82.github.io/EtherLabs/)
+**Live URL (after Pages is enabled):** [https://bnicol82.github.io/EtherLabs/](https://bnicol82.github.io/EtherLabs/)
 
-If this is the first deploy, enable GitHub Pages in the repository settings and set the source to **GitHub Actions**.
+### One-time setup
+
+1. Open [Repository Settings → Pages](https://github.com/bnicol82/EtherLabs/settings/pages)
+2. Under **Build and deployment**, choose **Deploy from a branch**
+3. Set **Branch** to `gh-pages` and **Folder** to `/ (root)`
+4. Click **Save**
+
+Future pushes to `main` will rebuild and redeploy automatically.
