@@ -2,7 +2,7 @@
 
 Parent company website for **EtherLabs** — the holding company behind:
 
-- **[EtherMail](https://bnicol82.github.io/EtherMail/)** — Obsidian-style knowledge vault with unified email, knowledge graph, and private RAG AI ([repo](https://github.com/bnicol82/EtherMail))
+- **[EtherMail](https://bnicol82.github.io/EtherMail/)** — AI-integrated email with privacy and security built in ([repo](https://github.com/bnicol82/EtherMail))
 - **EtherAgents** — AI agent infrastructure (formerly Agent Task Force)
 - **TokenStream** — Real-time token intelligence
 

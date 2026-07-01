@@ -12,8 +12,8 @@ export function Footer() {
             <Logo />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-theme-muted">
               EtherLabs is the parent company behind EtherMail, EtherAgents, and
-              TokenStream — knowledge vaults, AI agents, and real-time
-              intelligence under one roof.
+              TokenStream — AI-integrated learning, privacy, and security across
+              every product.
             </p>
           </div>
 

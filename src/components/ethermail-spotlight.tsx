@@ -1,7 +1,7 @@
-import { BookOpen, Brain, Command, Mail, Network } from "lucide-react";
+import { Brain, Lock, Mail, Shield } from "lucide-react";
 import { companyLinks, etherMailHighlights } from "@/lib/constants";
 
-const featureIcons = [BookOpen, Mail, Network, Brain, Command, Mail] as const;
+const featureIcons = [Brain, Lock, Shield, Mail] as const;
 
 export function EtherMailSpotlight() {
   return (
@@ -14,14 +14,14 @@ export function EtherMailSpotlight() {
                 Flagship Product
               </p>
               <h2 className="mt-2 text-2xl font-bold text-theme md:text-3xl">
-                EtherMail — your knowledge vault &amp; inbox
+                EtherMail — AI learning, privacy &amp; security
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-theme-muted md:text-base">
-                EtherMail is an Obsidian-style knowledge vault with unified
-                email, an interactive knowledge graph, and a private RAG AI
-                assistant. Phase 1 is live — vault, demo inbox, graph,
-                command bar, and client-side AI retrieval, all with the clear
-                glass UI you designed.
+                EtherMail brings unified email together with AI that learns from
+                your context — without sacrificing privacy. Client-side RAG
+                retrieval keeps intelligence local, proactive assistants surface
+                what matters, and you stay in control of every connection and
+                API key.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a
@@ -45,7 +45,7 @@ export function EtherMailSpotlight() {
 
             <div className="grid grid-cols-2 gap-4">
               {etherMailHighlights.map((item, index) => {
-                const Icon = featureIcons[index] ?? BookOpen;
+                const Icon = featureIcons[index] ?? Brain;
                 return (
                   <div key={item.label} className="glass rounded-xl p-4">
                     <Icon className="mb-2 h-5 w-5 text-accent" />
@@ -59,24 +59,29 @@ export function EtherMailSpotlight() {
 
           <div className="mt-8 border-t border-[var(--glass-border)] pt-6">
             <p className="text-xs font-medium uppercase tracking-wider text-theme-muted">
-              EtherMail roadmap
+              Built for trust
             </p>
-            <div className="mt-3 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
-              <div className="rounded-lg bg-accent-soft px-3 py-2 text-theme-secondary">
-                <span className="font-medium text-accent">Phase 1</span> — Vault,
-                demo email, RAG AI, graph
+            <div className="mt-3 grid gap-3 text-sm sm:grid-cols-3">
+              <div className="rounded-lg bg-accent-soft px-4 py-3 text-theme-secondary">
+                <span className="font-medium text-accent">AI Learning</span>
+                <p className="mt-1 text-xs text-theme-muted">
+                  Hybrid retrieval across email and notes so the assistant
+                  understands your full context.
+                </p>
               </div>
-              <div className="rounded-lg px-3 py-2 text-theme-muted">
-                <span className="font-medium text-theme">Phase 2</span> — OAuth,
-                calendar sync, Email Files vault
+              <div className="rounded-lg px-4 py-3 text-theme-muted">
+                <span className="font-medium text-theme">Privacy</span>
+                <p className="mt-1 text-xs">
+                  Client-side RAG and local persistence — your inbox and
+                  intelligence stay on your terms.
+                </p>
               </div>
-              <div className="rounded-lg px-3 py-2 text-theme-muted">
-                <span className="font-medium text-theme">Phase 3</span> — AI
-                Bridge, teams, live API sync
-              </div>
-              <div className="rounded-lg px-3 py-2 text-theme-muted">
-                <span className="font-medium text-theme">Phase 4</span> —
-                Plugins, web clipper, OCR
+              <div className="rounded-lg px-4 py-3 text-theme-muted">
+                <span className="font-medium text-theme">Security</span>
+                <p className="mt-1 text-xs">
+                  Controlled AI access with optional external providers. You
+                  decide what connects and what stays private.
+                </p>
               </div>
             </div>
           </div>

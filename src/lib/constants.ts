@@ -14,20 +14,20 @@ export const products: readonly Product[] = [
   {
     id: "ethermail",
     name: "EtherMail",
-    tagline: "Obsidian-style knowledge vault + unified email",
+    tagline: "AI-integrated email with privacy built in",
     description:
-      "Phase 1 MVP — markdown vault, unified inbox, knowledge graph, and private RAG AI in one glass-clear workspace. Built with React, Vite, and Tailwind.",
+      "Unified email and intelligent workspace where AI learns from your context — privately. Client-side retrieval, proactive assistance, and security-first design in one glass-clear app.",
     href: "https://bnicol82.github.io/EtherMail/",
     repo: "https://github.com/bnicol82/EtherMail",
     accent: "from-sky-400 to-blue-600",
     icon: "mail",
     features: [
-      "Vault — notes, [[links]], tags & backlinks",
-      "Email — unified inbox linked to notes",
-      "Knowledge graph — notes, emails & people",
-      "Vault AI — private RAG assistant",
-      "Command bar — ⌘K global search",
-      "Mobile — responsive, collapsible nav",
+      "AI learning — contextual assistant across email & notes",
+      "Privacy — client-side RAG, data stays local",
+      "Security — controlled AI access, optional external keys",
+      "Unified inbox — email linked to your knowledge context",
+      "Proactive AI — surfaces insights before you ask",
+      "Knowledge graph — connects people, topics & messages",
     ],
   },
   {
@@ -53,17 +53,17 @@ export const products: readonly Product[] = [
 ];
 
 export const etherMailHighlights = [
-  { value: "Vault", label: "Markdown notes & links" },
-  { value: "Inbox", label: "Unified email" },
-  { value: "Graph", label: "Knowledge visualization" },
-  { value: "RAG AI", label: "Private assistant" },
+  { value: "AI Learning", label: "Context-aware assistant" },
+  { value: "Privacy", label: "Client-side, local-first" },
+  { value: "Security", label: "Your data, your control" },
+  { value: "Unified", label: "Email + intelligent workspace" },
 ] as const;
 
 export const stats = [
-  { value: "3", label: "EtherLabs products" },
-  { value: "Phase 1", label: "EtherMail MVP live" },
-  { value: "⌘K", label: "Command bar search" },
-  { value: "Local", label: "Client-side RAG AI" },
+  { value: "Private", label: "Client-side RAG AI" },
+  { value: "Secure", label: "Local-first data" },
+  { value: "AI", label: "Integrated learning" },
+  { value: "Unified", label: "Email & intelligence" },
 ] as const;
 
 export const navLinks = [

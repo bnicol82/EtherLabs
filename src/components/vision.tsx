@@ -1,29 +1,29 @@
-import { BookOpen, Brain, Layers, Shield } from "lucide-react";
+import { Brain, Lock, Shield, Sparkles } from "lucide-react";
 
 const pillars = [
   {
-    icon: BookOpen,
-    title: "Vault-First",
-    description:
-      "Markdown notes, bi-directional links, tags, and backlinks — the same foundation that powers EtherMail.",
-  },
-  {
     icon: Brain,
-    title: "Private AI",
+    title: "AI-Integrated Learning",
     description:
-      "Client-side RAG retrieval keeps your vault and inbox context local. External AI keys are optional.",
+      "EtherMail's assistant learns from your email and workspace context — surfacing insights, answering questions, and getting smarter over time.",
   },
   {
-    icon: Layers,
-    title: "Unified Workspace",
+    icon: Lock,
+    title: "Privacy by Design",
     description:
-      "Email, notes, calendar, and graph views share one glass UI — not scattered across separate apps.",
+      "Client-side RAG retrieval and local-first storage mean your data isn't sent to the cloud by default. Intelligence stays close to you.",
   },
   {
     icon: Shield,
-    title: "Your Data",
+    title: "Security First",
     description:
-      "Built for individuals who want control — local persistence, clear privacy, and no vendor lock-in.",
+      "Controlled AI connections, optional external API keys, and a clear boundary between your private workspace and third-party services.",
+  },
+  {
+    icon: Sparkles,
+    title: "Unified Intelligence",
+    description:
+      "Email, notes, calendar, and AI share one workspace — so learning compounds across everything you do, not in silos.",
   },
 ];
 
@@ -37,17 +37,16 @@ export function Vision() {
               Our Vision
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-theme md:text-4xl">
-              One design language. Multiple products.
+              Intelligent tools you can trust.
             </h2>
             <p className="mt-6 leading-relaxed text-theme-muted">
-              EtherLabs builds tools with the same professional, glass-clear
-              aesthetic as EtherMail — airy gradients, frosted panels, and a
-              focus on clarity over clutter.
+              EtherLabs builds products where AI integrated learning, privacy,
+              and security are foundational — not afterthoughts. EtherMail
+              leads with private, context-aware intelligence in every inbox.
             </p>
             <p className="mt-4 leading-relaxed text-theme-muted">
-              EtherMail proved the model: vault, inbox, graph, and AI in one
-              place. EtherAgents and TokenStream extend that vision into agent
-              orchestration and live market intelligence.
+              EtherAgents and TokenStream extend that same philosophy into
+              autonomous orchestration and real-time market intelligence.
             </p>
           </div>
 

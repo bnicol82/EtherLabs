@@ -19,8 +19,8 @@ export function Products() {
             Three products. One mission.
           </h2>
           <p className="mt-4 text-theme-muted">
-            EtherLabs builds knowledge-first tools — from your live EtherMail
-            MVP to EtherAgents and TokenStream.
+            EtherLabs builds privacy-conscious, AI-powered tools — from EtherMail
+            to EtherAgents and TokenStream.
           </p>
         </div>
 

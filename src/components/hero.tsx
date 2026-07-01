@@ -19,8 +19,8 @@ export function Hero() {
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-theme-muted md:text-xl">
             EtherLabs is the holding company behind your products — starting
-            with EtherMail&apos;s Obsidian-style vault, unified email, knowledge
-            graph, and private AI, all in the same clear glass design language.
+            with EtherMail, where AI-integrated learning, privacy, and security
+            come together in unified email and an intelligent workspace.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
