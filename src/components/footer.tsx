@@ -1,4 +1,4 @@
-import { products } from "@/lib/constants";
+import { companyLinks, products } from "@/lib/constants";
 import { Logo } from "./logo";
 
 export function Footer() {
@@ -12,8 +12,8 @@ export function Footer() {
             <Logo />
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-theme-muted">
               EtherLabs is the parent company behind EtherMail, EtherAgents, and
-              TokenStream — building unified communication, AI agents, and
-              real-time token intelligence.
+              TokenStream — knowledge vaults, AI agents, and real-time
+              intelligence under one roof.
             </p>
           </div>
 
@@ -23,7 +23,7 @@ export function Footer() {
               {products.map((product) => (
                 <li key={product.id}>
                   <a
-                    href={product.href}
+                    href={product.href.startsWith("http") ? product.href : `#${product.id}`}
                     className="text-sm text-theme-muted transition-colors hover:text-accent"
                     {...(product.href.startsWith("http")
                       ? { target: "_blank", rel: "noopener noreferrer" }
@@ -37,32 +37,36 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-theme">Company</h3>
+            <h3 className="text-sm font-semibold text-theme">Links</h3>
             <ul className="mt-4 space-y-3">
               <li>
                 <a
-                  href="#vision"
+                  href={companyLinks.etherMailDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-theme-muted transition-colors hover:text-accent"
                 >
-                  Vision
+                  EtherMail demo
                 </a>
               </li>
               <li>
                 <a
-                  href="#about"
-                  className="text-sm text-theme-muted transition-colors hover:text-accent"
-                >
-                  Contact
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/bnicol82/EtherMail"
+                  href={companyLinks.etherMailRepo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-theme-muted transition-colors hover:text-accent"
                 >
                   EtherMail on GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href={companyLinks.etherLabsRepo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-theme-muted transition-colors hover:text-accent"
+                >
+                  EtherLabs on GitHub
                 </a>
               </li>
             </ul>

@@ -1,29 +1,29 @@
-import { Globe, Layers, Shield, Zap } from "lucide-react";
+import { BookOpen, Brain, Layers, Shield } from "lucide-react";
 
 const pillars = [
   {
-    icon: Shield,
-    title: "Privacy First",
+    icon: BookOpen,
+    title: "Vault-First",
     description:
-      "User sovereignty is non-negotiable. Every product is built so individuals control their data, identity, and communications.",
+      "Markdown notes, bi-directional links, tags, and backlinks — the same foundation that powers EtherMail.",
   },
   {
-    icon: Zap,
-    title: "Agent-Native",
+    icon: Brain,
+    title: "Private AI",
     description:
-      "The next wave of software is AI-driven. We build infrastructure where humans and autonomous agents work together seamlessly.",
+      "Client-side RAG retrieval keeps your vault and inbox context local. External AI keys are optional.",
   },
   {
     icon: Layers,
-    title: "Composable Stack",
+    title: "Unified Workspace",
     description:
-      "Email, agents, and token streams share a unified foundation — interoperable by design, not bolted on after the fact.",
+      "Email, notes, calendar, and graph views share one glass UI — not scattered across separate apps.",
   },
   {
-    icon: Globe,
-    title: "Knowledge-Centric",
+    icon: Shield,
+    title: "Your Data",
     description:
-      "Inspired by EtherMail's vault-first approach — linked notes, graphs, and context-aware AI at the core of every product.",
+      "Built for individuals who want control — local persistence, clear privacy, and no vendor lock-in.",
   },
 ];
 
@@ -40,14 +40,14 @@ export function Vision() {
               One design language. Multiple products.
             </h2>
             <p className="mt-6 leading-relaxed text-theme-muted">
-              EtherLabs exists to build communication and intelligence tools
-              with the same professional, glass-clear aesthetic as EtherMail —
-              airy gradients, frosted panels, and a focus on clarity.
+              EtherLabs builds tools with the same professional, glass-clear
+              aesthetic as EtherMail — airy gradients, frosted panels, and a
+              focus on clarity over clutter.
             </p>
             <p className="mt-4 leading-relaxed text-theme-muted">
-              From EtherMail&apos;s knowledge vault and unified inbox to
-              EtherAgents&apos; autonomous workflows and TokenStream&apos;s live
-              on-chain feeds, we are assembling a cohesive product family.
+              EtherMail proved the model: vault, inbox, graph, and AI in one
+              place. EtherAgents and TokenStream extend that vision into agent
+              orchestration and live market intelligence.
             </p>
           </div>
 

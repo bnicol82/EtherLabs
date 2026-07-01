@@ -1,4 +1,5 @@
 import { About } from "@/components/about";
+import { EtherMailSpotlight } from "@/components/ethermail-spotlight";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
@@ -14,6 +15,7 @@ export default function Home() {
         <main className="flex-1">
           <Hero />
           <Stats />
+          <EtherMailSpotlight />
           <Products />
           <Vision />
           <About />

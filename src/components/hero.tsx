@@ -13,29 +13,29 @@ export function Hero() {
           <h1 className="text-4xl font-bold tracking-tight text-theme sm:text-5xl md:text-6xl md:leading-[1.1]">
             Building the future of{" "}
             <span className="bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              intelligent communication
+              intelligent workspaces
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-theme-muted md:text-xl">
-            EtherLabs unifies knowledge, email, AI agents, and on-chain
-            intelligence — a family of products designed with the same clear
-            glass aesthetic and professional polish as EtherMail.
+            EtherLabs is the holding company behind your products — starting
+            with EtherMail&apos;s Obsidian-style vault, unified email, knowledge
+            graph, and private AI, all in the same clear glass design language.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
-              href="#products"
+              href="#ethermail"
               className="group inline-flex h-12 items-center gap-2 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 px-8 text-sm font-medium text-white shadow-md transition-all hover:from-sky-400 hover:to-blue-500 hover:shadow-lg"
             >
-              View Our Products
+              Explore EtherMail
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </a>
             <a
-              href="#vision"
+              href="#products"
               className="inline-flex h-12 items-center rounded-xl border border-[var(--glass-border)] bg-[var(--glass-bg)] px-8 text-sm font-medium text-theme-secondary backdrop-blur-sm transition-colors hover-theme"
             >
-              Our Vision
+              All Products
             </a>
           </div>
         </div>

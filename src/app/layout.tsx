@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "EtherLabs | Parent Company",
   description:
-    "EtherLabs is the parent company behind EtherMail, EtherAgents, and TokenStream — building unified communication, AI agents, and real-time token intelligence.",
+    "EtherLabs is the parent company behind EtherMail — an Obsidian-style knowledge vault with unified email, graph, and private RAG AI — plus EtherAgents and TokenStream.",
   icons: {
     icon: "/favicon.svg",
   },
@@ -13,13 +13,14 @@ export const metadata: Metadata = {
     "EtherMail",
     "EtherAgents",
     "TokenStream",
-    "AI agents",
     "knowledge vault",
+    "RAG AI",
+    "unified email",
   ],
   openGraph: {
     title: "EtherLabs | Parent Company",
     description:
-      "The parent company powering EtherMail, EtherAgents, and TokenStream.",
+      "Parent company for EtherMail, EtherAgents, and TokenStream.",
     type: "website",
   },
 };

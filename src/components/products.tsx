@@ -1,5 +1,5 @@
-import { Activity, ArrowUpRight, Bot, Mail } from "lucide-react";
-import { products } from "@/lib/constants";
+import { Activity, ArrowUpRight, Bot, Check, Mail } from "lucide-react";
+import { companyLinks, products } from "@/lib/constants";
 
 const iconMap = {
   mail: Mail,
@@ -19,9 +19,8 @@ export function Products() {
             Three products. One mission.
           </h2>
           <p className="mt-4 text-theme-muted">
-            Each EtherLabs company solves a distinct challenge — from
-            knowledge-first email to autonomous agents to live token
-            intelligence.
+            EtherLabs builds knowledge-first tools — from your live EtherMail
+            MVP to EtherAgents and TokenStream.
           </p>
         </div>
 
@@ -57,9 +56,23 @@ export function Products() {
                   <ArrowUpRight className="h-5 w-5 shrink-0 text-theme-muted transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent" />
                 </div>
 
-                <p className="mt-4 flex-1 text-sm leading-relaxed text-theme-muted">
+                <p className="mt-4 text-sm leading-relaxed text-theme-muted">
                   {product.description}
                 </p>
+
+                {product.features && (
+                  <ul className="mt-4 space-y-2 border-t border-[var(--glass-border)] pt-4">
+                    {product.features.map((feature) => (
+                      <li
+                        key={feature}
+                        className="flex items-start gap-2 text-xs text-theme-muted"
+                      >
+                        <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-accent" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                )}
 
                 {product.id === "etheragents" && (
                   <span className="mt-4 inline-flex w-fit rounded-full border border-[var(--accent-border)] bg-accent-soft px-3 py-1 text-xs text-accent">
@@ -67,14 +80,34 @@ export function Products() {
                   </span>
                 )}
 
-                {"repo" in product && product.repo && (
+                {product.repo && (
                   <span className="mt-4 text-xs text-theme-muted">
-                    Open source on GitHub
+                    Live demo &amp; source on GitHub
                   </span>
                 )}
               </a>
             );
           })}
+        </div>
+
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm">
+          <a
+            href={companyLinks.etherMailDemo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            Try EtherMail demo →
+          </a>
+          <span className="text-theme-muted">·</span>
+          <a
+            href={companyLinks.etherMailRepo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            View EtherMail repo →
+          </a>
         </div>
       </div>
     </section>
