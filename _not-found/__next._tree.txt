@@ -1,2 +1,2 @@
-:HL["/EtherLabs/_next/static/chunks/1epbnynvsl2jc.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Sv3ZcAX8aiL__PAAt7Q1C"}
+:HL["/EtherLabs/_next/static/chunks/0_w6sdhxfvjqp.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"wYPnsEVCOaQqKEYV9ywDI"}
