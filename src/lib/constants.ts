@@ -2,40 +2,41 @@ export const products = [
   {
     id: "ethermail",
     name: "EtherMail",
-    tagline: "Email for Web3",
+    tagline: "Knowledge vault + unified email",
     description:
-      "The wallet-native communication layer for Web3. Secure, anonymous, and encrypted wallet-to-wallet email that gives users full ownership of their inbox.",
-    href: "https://ethermail.io",
-    accent: "from-violet-500 to-purple-600",
+      "Obsidian-style knowledge vault with unified email, knowledge graph, and private AI. Notes, inbox, and assistant in one glass-clear workspace.",
+    href: "https://bnicol82.github.io/EtherMail/",
+    repo: "https://github.com/bnicol82/EtherMail",
+    accent: "from-sky-400 to-blue-600",
     icon: "mail",
   },
   {
     id: "etheragents",
     name: "EtherAgents",
-    tagline: "AI Agent Infrastructure",
+    tagline: "AI agent infrastructure",
     description:
-      "Autonomous AI agents built for the decentralized web. Deploy, orchestrate, and scale intelligent agents that communicate, transact, and operate across Web3.",
+      "Autonomous AI agents for orchestration and task execution. Deploy, coordinate, and scale intelligent agents across your product stack.",
     href: "#",
-    accent: "from-indigo-500 to-blue-600",
+    accent: "from-sky-500 to-indigo-600",
     icon: "bot",
   },
   {
     id: "tokenstream",
     name: "TokenStream",
-    tagline: "Real-Time Token Intelligence",
+    tagline: "Real-time token intelligence",
     description:
-      "Live blockchain data streams and token analytics for builders and institutions. Monitor markets, track assets, and act on on-chain events in real time.",
+      "Live blockchain data streams and token analytics for builders. Monitor markets, track assets, and act on on-chain events in real time.",
     href: "#",
-    accent: "from-fuchsia-500 to-pink-600",
+    accent: "from-cyan-400 to-blue-600",
     icon: "activity",
   },
 ] as const;
 
 export const stats = [
-  { value: "3M+", label: "Verified Web3 accounts" },
-  { value: "50M+", label: "Connected wallets" },
-  { value: "100+", label: "Web3 communities" },
   { value: "3", label: "Product lines" },
+  { value: "Vault", label: "Knowledge-first email" },
+  { value: "AI", label: "Private RAG assistant" },
+  { value: "Graph", label: "Linked knowledge" },
 ] as const;
 
 export const navLinks = [

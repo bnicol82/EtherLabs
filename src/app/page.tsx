@@ -8,16 +8,18 @@ import { Vision } from "@/components/vision";
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <Stats />
-        <Products />
-        <Vision />
-        <About />
-      </main>
-      <Footer />
-    </>
+    <div className="ethermail-bg">
+      <div className="app-shell flex min-h-dvh flex-col">
+        <Header />
+        <main className="flex-1">
+          <Hero />
+          <Stats />
+          <Products />
+          <Vision />
+          <About />
+        </main>
+        <Footer />
+      </div>
+    </div>
   );
 }
